@@ -29,3 +29,5 @@ for i in squared_list:
     sum = sum + i
 
 result = sum/ (len(data)-1)
+std_deviation = math.sqrt(result)
+print(std_deviation)
